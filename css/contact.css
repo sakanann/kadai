@@ -2,8 +2,8 @@ form {
   width: 640px;
 }
 table.contact {
-  width: 640px;
-  margin : auto
+  width: 640px; /*横幅*/
+  margin : auto;/*中央寄せ*/
 }
 table.contact th {
   width: 150px;
@@ -20,12 +20,14 @@ input[type=text],input[type=email] {
 textarea {
   width: 480px;
 }
-input[type=submit] {
+#submit {
   display: block;
-  margin:10px auto;
+  margin:auto;
   background-color: #008B8B;
+  border: #008B8B;
   color: #ffffff;
   font-size: 3rem;
+  padding: 10px;
 }
 input[type=submit]:hover {
   opacity: 0.5;
