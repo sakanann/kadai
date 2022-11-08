@@ -1,0 +1,32 @@
+form {
+  width: 640px;
+}
+table.contact {
+  width: 640px;
+  margin : auto
+}
+table.contact th {
+  width: 150px;
+  height: 7rem;
+  text-align: right;
+  padding-right: 10px;
+}
+table.contact td {
+  width: 480px;
+}
+input[type=text],input[type=email] {
+  width: 480px;
+}
+textarea {
+  width: 480px;
+}
+input[type=submit] {
+  display: block;
+  margin:10px auto;
+  background-color: #008B8B;
+  color: #ffffff;
+  font-size: 3rem;
+}
+input[type=submit]:hover {
+  opacity: 0.5;
+}
